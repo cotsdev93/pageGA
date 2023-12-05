@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- HOJA DE ESTILO  -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ganadera Arenales</title>
+
+    <!-- API Maps -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRlNOw4D89YmqFLbBF7YOP1I7X0DXneDM&callback=initMap"
+      defer
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="intro">
+      <h1 class="logoHeader">
+        <span class="logo">Ganadera</span>
+        <img class="logo" src="./assets/img/logoSolo.png" alt="" />
+        <span class="logo">Arenales</span>
+      </h1>
+    </div>
+    <div class="popupContainer">
+      <div class="popup">
+        <p>
+          Este es el unico sitio web oficial de
+          <strong>Ganadera Arenales</strong>. No caigas en estafas, no contamos
+          con venta online de productos en mercado interno o externo. ante la
+          duda te solicitamos que nos contactes a:
+          <strong>info@ganaderaArenales.com</strong> ¡Muchas Gracias!
+        </p>
+        <p>
+          this is the only official web site of Ganaderia Arenales. we do not
+          have online sales for domestic market and international market. avoid
+          frauds! if you need assistance, please contact:
+          <strong>info@ganaderaArenales.com</strong>.com Thank you!
+        </p>
+        <div class="logoPopup">
+          <span translate="no">Ganadera</span>
+          <img class="logo" src="./assets/img/logoSolo.png" alt="" />
+          <span translate="no">Arenales</span>
+        </div>
+        <button id="x"><i class="fa-regular fa-x"></i></button>
+      </div>
+    </div>
+    <div class="blureado">
+      <header>
+        <nav>
+          <div class="logoNav">
+            <span translate="no">Ganadera</span>
+            <img class="logo" src="./assets/img/logoSolo.png" alt="" />
+            <span translate="no">Arenales</span>
+          </div>
+          <ul class="navMenu">
+            <li>Products</li>
+            <li>About us</li>
+            <li>Export</li>
+            <li>Contact</li>
+          </ul>
+          <div class="menuContainer">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="exportacion">
+          <div class="exportacionContainer">
+            <h3>Paises Clientes</h3>
+            <p>
+              Nos enorgullece compartir que nuestras carnes de alta calidad han
+              llegado a los cinco continentes. Desde los vastos campos de
+              nuestras tierras hasta su mesa, llevamos la tradición ganadera a
+              cada rincón del mundo. Descubra el sabor auténtico que trasciende
+              fronteras.
+            </p>
+            <div id="map"></div>
+          </div>
+        </div>
+        <footer>
+          <div class="logoContainer">
+            <span translate="no">Ganadera</span>
+            <img class="logo" src="./assets/img/logoSolo.png" alt="" />
+            <span translate="no">Arenales</span>
+          </div>
+          <div class="info">
+            <div class="flex">
+              <a
+                target="_blank"
+                href="https://www.google.com/maps/place/Av.+Juan+Bautista+Alberdi+78,+C1424BYN+CABA/@-34.62237,-58.4314886,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcca4fdfb5bb83:0xf7e39f08c909f003!8m2!3d-34.62237!4d-58.4289137!16s%2Fg%2F11dzmtvn7h?entry=ttu"
+              >
+                <i class="fa-solid fa-location-dot"></i>
+                <p>direccion 1234</p></a
+              >
+            </div>
+            <div class="flex">
+              <a target="_blank" href="https://wa.me/91178993063">
+                <i class="fa-solid fa-phone"></i>
+                <p>+54 9 11 7899-3063</p></a
+              >
+            </div>
+            <div class="flex">
+              <a href="">
+                <i class="fa-solid fa-envelope"></i>
+                <p>info@ganaderaarenales.com.ar</p></a
+              >
+            </div>
+          </div>
+        </footer>
+        <div class="copyR">
+          <p>COTS-DEV'23 <i class="fa-regular fa-copyright"></i></p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
