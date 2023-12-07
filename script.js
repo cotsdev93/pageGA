@@ -62,7 +62,7 @@ btnRight.addEventListener("click", (e) => moveToRight());
 setTimeout(() => {
   setInterval(() => {
   moveToRight();
-}, 6500);
+}, 5000);
 }, 12000);
 
 let operacion = 0;
@@ -229,3 +229,16 @@ function initMap() {
   );
 }
 initMap();
+
+const form = document.querySelector(".form")
+const input = document.querySelectorAll("input")
+form.addEventListener("submit", function(e){
+  e.preventDefault()
+  vaciarCampos()
+})
+
+function vaciarCampos() {
+  input.forEach(function(e){
+    e.value = ""
+  })
+}
