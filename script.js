@@ -243,15 +243,3 @@ function vaciarCampos() {
   });
 }
 
-// const elementosnfo = document.querySelectorAll(".info");
-
-// if (window.innerWidth <= 737) {
-//   const elementosInfo = document.querySelectorAll('.info');
-//   elementosInfo.forEach((elemento) => {
-//     elemento.setAttribute('data-aos', 'fade-up');
-//   });
-
-//   // Refrescar AOS para aplicar las nuevas animaciones
-//   AOS.refresh();
-// }
-
